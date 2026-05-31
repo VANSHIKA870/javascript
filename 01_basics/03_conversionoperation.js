@@ -40,3 +40,9 @@ let someNumber=33
 let stringNumber=String(someNumber) //convert number to string
 console.log(stringNumber) //"33"
 console.log(typeof stringNumber) //string
+
+/***************************OPERATIONS*************************** */
+
+let value=3
+let negValue=-value
+console.log(negValue)
