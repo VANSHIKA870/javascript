@@ -45,4 +45,27 @@ console.log(typeof stringNumber) //string
 
 let value=3
 let negValue=-value
-console.log(negValue)
+console.log(negValue)//-3
+
+let str1="hello"
+let str2="vanshika"
+
+let str3=str1+str2
+console.log(str3);// hellovanshika
+
+console.log("1"+2) //12
+console.log(1+"2")//12
+console.log("1"+2+2)//122
+console.log(1+2+"2")//32
+
+console.log(true)//true
+console.log(+true)//1
+console.log(+"")//0
+
+let num1,num2,num3
+num1=num2=num3=2+2//unreadable code
+
+let gamecounter=100
+gamecounter++;//101(postfix operator)
+++gamecounter;//101(prefix operator)
+console.log(gamecounter)
